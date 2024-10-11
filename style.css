@@ -1,0 +1,31 @@
+.top-navbar {
+    background-color: rgb(33,37,41);
+    color: #fff;
+}
+
+.top-navbar ul {
+    margin: 0;
+}
+
+.top-navbar ul li {
+    display: inline-block;
+}
+
+.top-navbar h4 {
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+.top-navbar ul li a {
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+    opacity: 50%;
+}
+
+.header {
+    background-color: rgb(33,37,41);
+}
+
