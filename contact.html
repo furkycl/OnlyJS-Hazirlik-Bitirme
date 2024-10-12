@@ -47,23 +47,19 @@
                 <h1 class="fw-bold mt-3">Get in touch</h1>
                 <p class="fs-5 opacity-75">We'd love to hear from you</p>
             </div>
-            <div>
+            <div class="">
                 <form class="text-center">
                     <div>
-                        <label for="name_surname">Full name</label>
-                        <input type="text" required>
+                        <input class="rounded-1 border-1 p-2 m-3" name="fullname" id="fullname" type="text" placeholder="Full name" required>
                     </div>
                     <div>
-                        <label for="email">Email address</label>
-                        <input type="email" required>
+                        <input class="rounded-1 border-1 p-2 m-3" name="email" id="email" type="email" placeholder="Email address" required>
                     </div>
                     <div>
-                        <label for="phone_number">Phone number</label>
-                        <input type="number" required>
+                        <input class="rounded-1 border-1 p-2 m-3" name="phonenumber" id="phonenumber" type="number" placeholder="Phone number" required>
                     </div>
                     <div>
-                        <label for="message">Message</label>
-                        <input type="text" required>
+                        <textarea class="rounded-1 border-1 p-2 m-3 form-control" name="message" id="message" type="text" placeholder="Message" rows="5" required></textarea>
                     </div>
                     <div>
                         <button class="btn btn-primary" disabled>Submit</button>
@@ -76,23 +72,25 @@
     <section>
         <div class="container py-5">
             <div class="row">
-                <div class="col">
-                    <i class="fa-brands fa-rocketchat bg-primary text-white fa-3x p-2"></i>
+                <div class="col-6 col-lg-3">
+                    <i class="fa-brands fa-rocketchat bg-primary text-white fa-3x p-2 rounded-4 mb-3"></i>
                     <h5>Chat with us</h5>
                     <p>Chat live with one of our support specialists.</p>
                 </div>
-                <div class="col">
-                    <i class="fa-solid fa-person bg-primary text-white fa-3x p-2"></i>
-                    <h5>Chat with us</h5>
-                    <p>Chat live with one of our support specialists.</p>
-                </div><div class="col">
-                    <i class="fa-solid fa-question bg-primary text-white fa-3x p-2"></i>
-                    <h5>Chat with us</h5>
-                    <p>Chat live with one of our support specialists.</p>
-                </div><div class="col">
-                    <i class="fa-solid fa-phone bg-primary text-white fa-3x p-2"></i>
-                    <h5>Chat with us</h5>
-                    <p>Chat live with one of our support specialists.</p>
+                <div class="col-6 col-lg-3">
+                    <i class="fa-solid fa-person bg-primary text-white fa-3x p-2 rounded-4 mb-3"></i>
+                    <h5>Ask the community</h5>
+                    <p>Explore our community forums and communicate with other users.</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <i class="fa-solid fa-question bg-primary text-white fa-3x p-2 rounded-4 mb-3"></i>
+                    <h5>Support center</h5>
+                    <p>Browse FAQ's and support articles to find solutions.</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <i class="fa-solid fa-phone bg-primary text-white fa-3x p-2 rounded-4 mb-3"></i>
+                    <h5>Call us</h5>
+                    <p>Call us during normal business hours at (555) 892-9403.</p>
                 </div>
             </div>
         </div>
